@@ -1,5 +1,5 @@
 # Make-wait_condition-work-on-openstack-heat-without-admin-role
-When you with heat on openstack (icehouse,juno,kilo), and you need to use wait_conditions, you are quicky confronted with the flowing problem :
+When you work with heat on openstack (icehouse,juno,kilo), and you need to use wait_conditions, you are quicky confronted with the flowing problem :
 Resource CREATE failed: Forbidden: You are not authorized to perform the requested action:identity:list_roles (Disable debug mode to suppress these details.) (HTTP 403)   
 here is the result of 
 ```
